@@ -7,6 +7,7 @@
 
 # base-files version 4.1-1
 
+# /home/Dom/.bash_profile
 # ~/.bash_profile: executed by bash(1) for login shells.
 
 # The latest version as installed by the Cygwin Setup program can
@@ -43,3 +44,4 @@ fi
 #   INFOPATH="${HOME}/info:${INFOPATH}"
 # fi
 PATH=$PATH:/cygdrive/i/sublime
+PATH=$PATH:/cygdrive/c/Users/Dom/Documents/projects/Programming/PHP/getGitHubRepos
