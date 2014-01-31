@@ -1,0 +1,45 @@
+# Commands used in these
+man ls
+man pwd
+man wc
+man cat
+man xargs
+man expr
+man touch
+man echo
+
+# Where am I? present working directory
+pwd
+
+# Where is my home directory?
+echo ~
+
+# Make a file in home directory
+touch ~/read-aptitude-documentation.sh
+
+# Append content to a file
+cat pwd > ~/read-aptitude-documentation.sh
+
+#What are files are in a directory?
+ls -al ~
+
+# How many lines does a command output?
+ls -l ~ | wc -l
+
+# How do you pipe output to the end of a command as arguments?
+ls -l ~ | wc -l | xargs expr 1 +
+
+# How do you pipe output to a particular argument?
+# How many files are in the directory?
+ls -l ~ | wc -l | xargs -i expr {} - 1
+
+# How do I get my command line history?
+historyi
+
+# How do I write output to a file?
+echo "output" > file.txt
+
+# How do I appent command line output to a file?
+echo "output" >> file.txt
+
+
